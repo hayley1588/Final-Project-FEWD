@@ -1,0 +1,107 @@
+@import url(sidebar-menu.css);
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.phone {
+    width: fit-content;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+.phone-img {
+    height: inherit;
+}
+
+.grid {
+    width: 69.5%;
+    height: 21.4%;
+    top: 26%;
+    left: 14%;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(187, 189, 176);
+    border-radius: 10px;
+    background-color: rgb(116, 121, 101);
+    position: absolute;
+    margin: auto;
+}
+
+.start {
+    background-color: transparent;
+    top: 52.5%;
+    left: 38%;
+    position: absolute;
+    border: none;
+    font-weight: bold;
+    padding: 0;
+    color: rgb(103, 179, 193);
+    outline: none;
+    font-size: 3.25vh;
+}
+
+.button-up,
+.button-right,
+.button-down,
+.button-left {
+    padding: 10%;
+    position: absolute;
+}
+
+.button-up {
+    border: 3px solid red;
+    top: 64%;
+    left: 38%;
+}
+
+.button-right {
+    border: 3px solid blue;
+    top: 70%;
+    left: 10%;
+}
+
+.button-down {
+    border: 3px solid orange;
+    top: 78%;
+    left: 38%;
+}
+
+.button-left {
+    border: 3px solid green;
+    top: 70%;
+    left: 66%;
+}
+
+.grid div {
+    width: 10%;
+    height: 10%;
+}
+
+.snake,
+.apple {
+    background-color: rgb(38, 41, 47);
+}
+
+.score {
+    font-family: "Press Start 2P", cursive;
+    font-size: 6vw;
+    font-weight: bold;
+    color: rgb(44, 37, 44);
+    position: absolute;
+    top: 50%;
+}
+
+.score-label {
+    right: 100%;
+}
+
+.score-result {
+    left: 100%;
+    margin-left: 4vw;
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Krona+One&display=swap");
+@import url(sidebar-menu.css);
+
+body {
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  max-width: 36vw;
+  color: transparent;
+  background-image: linear-gradient(to right, #005e7f, #61b6cd);
+  -webkit-background-clip: text;
+  font-size: 4vw;
+  margin: 12vw auto 0 auto;
+  text-align: center;
+}
+
+main {
+  color: #a1a1a6;
+  font-size: 2vw;
+  padding: 1vw 0;
+}
+
+.hamburger-icon-bar {
+  background-color: #308AA5;
+}
+
+.sidebar ul {
+  border-bottom-color: #308AA5;
+}
+
+.sidebar li a {
+  background-image: linear-gradient(to right, #005e7f, #61b6cd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  border-color: #308AA5;
+}
+
+.sidebar li a:hover {
+  background-color: #308AA5;
+  background-clip: unset;
+  color: black;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+  color: transparent;
+}
+
+.social-media {
+  margin: auto;
+  width: fit-content;
+  color: white;
+}
+
+.social-media-icon {
+  float: left;
+  width: 3vw;
+  height: 3vw;
+  padding: 0.5vw;
+  color: #a1a1a6;
+  font-size: 3vw;
+  transition: 0.5s;
+}
+
+.social-media-icon:hover {
+  color: white;
+  cursor: pointer;
+}

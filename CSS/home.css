@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Krona+One&display=swap");
+@import url(sidebar-menu.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+}
+
+main {
+    width: 66.66%;
+    color: black;
+    font-size: 11vw;
+    margin-top: 3vw;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+}
+
+.menu-container {
+    top: -5px;
+    right: -70px;
+}
