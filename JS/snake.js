@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     score = 0
     randomApple()
     direction = 1 //for the snake to go one div right
-    scoreDisplay.innerText = score.toString()
+    scoreDisplay.innerText = score
     intervalTime = 1000
     currentSnake = [2, 1, 0]
     currentIndex = 0
@@ -98,6 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.button-left').addEventListener('click', () => keypadPress(39));
 })
 
-// add buttons screen buttons
+// add screen buttons
 
 document.addEventListener("keyup", () => console.log(event.which))
